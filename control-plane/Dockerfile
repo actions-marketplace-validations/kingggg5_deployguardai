@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:10.0-alpine AS build
+FROM mcr.microsoft.com/dotnet/sdk:11.0-alpine AS build
 WORKDIR /source
 
 COPY src/DeployGuard.ControlPlane/DeployGuard.ControlPlane.csproj src/DeployGuard.ControlPlane/
